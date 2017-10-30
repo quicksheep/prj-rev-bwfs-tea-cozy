@@ -1,0 +1,163 @@
+body {
+	background: black;
+	font-family: helvetica;
+	font-size: 22px;
+	line-height: 1.5;
+	color: seashell;
+	min-width: 1200px;
+}
+/* header items ------------------*/
+
+#header {
+	position: fixed;
+	width: 100%;
+	height: 69px;
+	z-index: 100;
+	border-bottom: 1px solid seashell;
+	padding: 0 10px;
+	background: black;
+}
+#siteLogo {
+	width: auto;
+	position: absolute;
+	height: 50px;
+	margin-top: 10px;
+}
+nav {
+	display: block;
+	text-align: right;
+	padding-left: 200px;
+	box-sizing: border-box;
+}
+nav li {
+	display: inline;
+}
+nav li a {
+	displaY: inline-block;
+	color: white;
+	height: 69px;
+	line-height: 69px;
+	margin: 0 15px;
+	font-weight: bold;
+}
+/* main ------------------*/
+
+#main {
+	width: 1200px;
+	margin: 0 auto;
+	opacity: 0.9;
+}
+/* mission ------------------*/
+#mission,
+#featured-tea,
+#locations {
+		padding: 70px 0;
+		box-sizing: border-box;
+}
+
+#mission {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 700px;
+	background-image: url("../../resources/img/img-mission-background.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.banner {
+	width: 100%;
+	padding: 10px 20px;
+	height: auto;
+	margin: auto;
+	background: black;
+	text-align: center;
+}
+.banner h2,
+.banner h4 {
+	line-height: 1.5;
+	vertical-align: middle;
+	width: 100%;
+}
+/* basics ------------------*/
+
+h1,
+h2 {
+	font-size: 33px;
+	font-weight: bold;
+	padding: 10px;
+}
+h4 {
+	font-weight: bold;
+}
+h3 {
+	font-weight: bold;
+}
+/* featured tea ------------------*/
+
+#featured-tea {
+	text-align: center;
+}
+.teas {
+	margin: 0 auto;
+	width: 1000px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.teas li {
+	width: 300px;
+	max-width: 100%;
+	margin: 15px;
+}
+.teas li img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+/* locations ------------------*/
+
+#locations {
+	height: 500px;
+	box-sizing: border-box;
+	background-image: url("../../resources/img/img-locations-background.jpg");
+	background-size: cover;
+	background-position: center center;
+	text-align: center;	
+}
+.locations {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.locations li {
+	displaY: inline-block;
+	width: 300px;
+	max-width: 100%;
+	margin: 15px;
+	
+	margin: 0 20px;
+	padding: 20px 0;
+	background: black;
+}
+.locations p {
+	line-height: 66px;
+}
+/* footer ------------------*/
+
+footer {
+	height: 200px;
+	text-align: center;
+}
+h5 {
+	margin: 30px 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+small {
+	display: block;
+	text-align: left;
+	margin-left: 10px;
+	padding: 20px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
